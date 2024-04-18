@@ -16,16 +16,39 @@ body {
 
 body {
     font-family: "Sedan", sans-serif;
-    color: #e40d72d8;
+    color: #e40d7191;
     padding: 10px;
 }
 
 header {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(235, 234, 234);
     border-radius: 6px;
     height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center; /* vertical*/
     align-items: center;
+}
+
+#principal {
+    border-radius: 6px;
+    height: 800px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main {
+    background-color:#e40d7191;
+    border-radius: 6px;
+    height: 100%;
+    width: 74%;
+}
+
+aside {
+    background-color:rgba(255, 79, 214, 0.418);
+    border-radius: 6px;
+    height: 100%;
+    width: 25%;
 }
